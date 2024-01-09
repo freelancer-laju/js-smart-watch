@@ -1,0 +1,243 @@
+/* Created by Dev Nasfam */
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(ellipse at center, #00d2ff, #3a7bd5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.watch_cont {
+  min-width: 300px;
+  height: 400px;
+}
+
+.inner1 {
+  width: 173px;
+  height: 214px;
+  background: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 35px;
+  /*  border:2.5px solid #000;*/
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+}
+
+.inner2 {
+  width: 170px;
+  height: 210px;
+  background: #000;
+  border-radius: 35px;
+  box-shadow: inset 5px 5px 10px rgba(255, 255, 255, .35), inset -3px -3px 5px rgba(255, 255, 255, .25);
+}
+
+.inner3 {
+  width: 140px;
+  height: 155px;
+  background: black;
+  background-size: cover;
+  /* display:flex;
+    align-items:center;
+    justify-content:center;*/
+  margin-top: 20px;
+  transition: .7s;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(255, 255, 255, .3);
+}
+
+.button {
+  width: 55px;
+  height: 20px;
+  background: #000;
+  padding: 5px;
+  margin-top: -10.5px;
+  border-radius: 10px;
+  box-shadow: inset 4px 4px 5px rgba(255, 255, 255, .3);
+  border: 1px solid grey;
+}
+
+.button:active {
+  transform: scale(0.94);
+  box-shadow: inset -4px -4px 5px rgba(255, 255, 255, .3);
+}
+
+.route1 {
+  width: 105px;
+  height: 90px;
+  background: black;
+  border-radius: 30px 30px 0px 0px;
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, .4), 5px 5px 10px rgba(0, 0, 0, .4);
+}
+
+.route2 {
+  width: 105px;
+  height: 95px;
+  background: black;
+  border-radius: 0px 0px 30px 30px;
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, .4), 5px 5px 10px rgba(0, 0, 0, .4);
+}
+
+.time {
+  color: white;
+  font-size: 30px;
+  float: right;
+  padding: 10px 10px 0px 10px;
+  margin-top: 20px;
+  font-family: 'Bungee Inline', cursive;
+}
+
+.date {
+  color: white;
+  font-size: 16px;
+  float: right;
+  margin-right: 5px;
+  font-family: 'Bubblegum Sans', cursive;
+  padding: 5px;
+}
+
+.day {
+  color: white;
+  font-size: 16px;
+  float: left;
+  margin-top: 20px;
+  padding: 10px;
+  font-family: 'Contrail One', cursive;
+}
+
+.cos {
+  float: right;
+  padding: 5px;
+  border-radius: 20px;
+  font-size: 17px;
+  background: white;
+  box-shadow: inset 4px 4px 5px rgba(0, 0, 0, .4);
+  margin-top: 20px;
+  animation: load 3s infinite;
+  margin-right: 10px;
+}
+
+@keyframes load {
+  from {
+    transform: rotateZ(0deg);
+  }
+
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.cos:active {
+  transform: scale(1.1);
+}
+
+.inner4 {
+  width: 140px;
+  height: 155px;
+  background: black;
+  background-size: cover;
+  /* display:flex;
+    align-items:center;
+    justify-content:center;*/
+  margin-top: 20px;
+  transition: .7s;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(255, 255, 255, .3);
+}
+
+.ball1 {
+  width: 40px;
+  height: 40px;
+  background: green;
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, .3);
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.ball1:active {
+  transform: scale(1.05);
+}
+
+.ball1:nth-child(2) {
+  background: #7B1313;
+  box-shadow: inset 3px 3px 7px rgba(255, 255, 255, .4);
+}
+
+.ball1:nth-child(3) {
+  background: #011750;
+  box-shadow: inset 3px 3px 7px rgba(255, 255, 255, .4);
+}
+
+.ball1:nth-child(4) {
+  background: #CB6913;
+  box-shadow: inset 3px 3px 7px rgba(255, 255, 255, .4);
+}
+
+.ball1:nth-child(5) {
+  background: #502D8F;
+  box-shadow: inset 3px 3px 7px rgba(255, 255, 255, .4);
+}
+
+.ball1:nth-child(6) {
+  background: #EB86A8;
+  box-shadow: inset 3px 3px 7px rgba(0, 0, 0, .4);
+}
+
+.ball1:nth-child(7) {
+  background: white;
+  box-shadow: inset 3px 3px 7px rgba(0, 0, 0, .4);
+}
+
+.ball1:nth-child(8) {
+  background: black;
+  box-shadow: inset 3px 3px 7px rgba(255, 255, 255, .4);
+}
+
+.ball1:nth-child(9) {
+  background: yellow;
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, .4);
+}
+
+.container2 {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  background: radial-gradient(ellipse at center, #00d2ff, #3a7bd5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 15px solid white;
+  border-top: 15px solid transparent;
+  animation: rot 2s linear infinite;
+}
+
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
